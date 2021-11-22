@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios 2</title>
+<link href="../CSS/Style_Formularios.css" rel="stylesheet" type="text/css">
+</head>
+	
+<body>
+	<header>
+		<h1>Formularios en html</h1>
+	</header>
+<nav>
+		<ul>
+			<li><a href="Mi_primera_pagina.html">Mi primera pagina</a></li>
+			<li><a href="Tablas.html">Tablas</a></li>
+			<li><a href="Listas.html">Listas</a></li>
+			<li><a href="Enlaces.html">Enlaces</a></li>
+			<li><a href="Audio.html">Audio</a></li>
+			<li><a href="Video.html">Video</a></li>
+			<li><a href="Imagenes.html">Imágenes</a></li>
+			<li><a href="Animación.html">Animaciones</a></li>
+			<li><a href="Formularios.html">Formularios</a></li>
+		</ul>	
+	</nav>
+	<main>
+		<section>
+<h2>Inserción de formulario de búsqueda</h2> <br>
+			<form id="form6" name="form6" method="post">
+			  ¿Buscabas algo en específico?
+		  	</form> <br>
+			<label for="search">Search:</label>
+          	<input type="search" name="search" id="search">
+			<input type="button" id="idboton5" name="enviar5" value="Enviar">
+		</section>
+		<section>
+			<h2>Inserción de formularios</h2> <br>
+		<form>
+				<label>Nombre</label>
+				<input type="text" id="idname" name="nombre">
+				<input type="button" id="idboton" name="enviar" value="Enviar">
+		  </form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con casillas de verificación</h2> <br>
+			<form>
+				<label>¿Cuál es tu estación del año favorita?</label>
+				<input type="checkbox" id="generom1" name="generom1" value="Pop">
+				<label>Primavera</label>
+				<input type="checkbox" id="generom2" name="generom2" value="Rock">
+				<label for="">Verano</label>
+				<input type="checkbox" id="generom3" value="Jazz">
+				<label for="">Otoño</label>
+				<input type="checkbox" id="generom4" value="Alternativa">
+				<label for="">Invierno</label>
+				<input type="button" id="boton2" name="enviar2" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con botones radio</h2> <br>
+		<form id="form1" name="form1" method="get" action="page.html">
+		<label>Género</label>
+      </form>
+		<input type="radio" name="radio" id="radio" value="radio">
+        <label for="radio">Femenino </label>
+        <input type="radio" name="radio2" id="radio2" value="radio2">
+        <label for="radio2">Masculino </label>
+        <input type="submit" name="submit" id="submit" value="Enviar">
+		</section>
+		<section>
+			<h2>Formulario de contacto</h2> <br>
+			<h3>Contacto</h3>
+   <form id="form2" name="form2" method="get" action="page.html">
+		<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="textfield">Nombre</label>&nbsp;</td>
+      <td><input type="text" name="textfield" id="textfield">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><label for="email">Email:</label>&nbsp;</td>
+      <td> <input type="email" name="email" id="email">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><label for="textarea">Mensaje</label>&nbsp;</td>
+      <td><textarea name="textarea" id="textarea"></textarea>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="submit2" id="submit2" value="Enviar">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+	</form>
+		</section>
+		<section>
+			<h2>Formulario de ingreso o login</h2> <br>
+			<form id="form3" name="form3" method="get" action="page2.html">
+				<label>Usuario</label>
+				<input type="text" id="Usuario" name="Usuario">
+				<label>Contraseña</label>
+				<input type="password">
+				<input type="submit" name="submit3" id="submit3" value="Enviar">
+			</form>
+		</section>
+	  	<section>
+			<h2>Formulario de fecha</h2> <br>
+			<form id="form4" name="form4" method="post">
+			  ¿En qué fecha constestas este formulario?&nbsp; &nbsp;
+        	</form> <br>
+			<label for="date">Date:</label>
+        	<input type="date" name="date" id="date">
+			<input type="submit" name="submit4" id="submit4" value="Enviar">
+		</section>
+		<section>
+			<h2>Formulario de color</h2> <br>
+			<form id="form5" name="form5" method="post">
+			  ¿Cuál es tu color favorito?
+          	</form> <br>
+			<label for="color">Color:</label>
+          	<input type="color" name="color" id="color">
+			<input type="submit" name="submit5" id="submit5" value="Enviar">
+		</section>
+		<section>
+			<h2>Formulario de rango</h2> <br>
+			<form id="form7" name="form7" method="post">
+			  ¿En qué porcentaje dirías que se encuentra tu gusto por salir con amigos?&nbsp; &nbsp;
+          	</form> <br>
+			<label for="range">Range:</label>
+          	<input type="range" name="range" id="range">
+			<input type="submit" name="submit7" id="submit7" value="Enviar">
+		</section>
+		<section>
+		<h2>Formulario de texto</h2>
+			<form id="form8" name="form8" method="post">
+			  Describe cómo sería un día ideal para ti
+	  	  </form> <br>
+			<label for="textarea2">Escribe aquí</label>
+          	<textarea name="textarea2" id="textarea2"></textarea>
+			<input type="submit" name="submit8" id="submit8" value="Enviar">
+		</section>
+	</main>
+	<footer>
+		<br>
+		<h5>Elaborado por Lizbeth Cortero Chaltell</h5>
+</footer>
+</body>
+</html>

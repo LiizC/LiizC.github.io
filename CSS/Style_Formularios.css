@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+    background-color: #262626;
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+}
+nav {
+    width: auto;
+    background-color: #2E4159;
+}
+body nav ul {
+    text-decoration: none;
+    list-style-type: none;
+	
+}
+nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 25px;
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+header, nav, main, footer {
+    width: 90%;
+    margin-left: Auto;
+    margin-right: Auto;
+}
+footer {
+    width: 80%;
+    background-color: #262626;
+    height: 80px;
+}
+body footer h5 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+body main section {
+    background-color: #4F4D8C;
+    margin-top: 50px;
+    padding: 20px;
+    margin-bottom: 50px;
+    border: thick solid #F9F9F9;
+}
+
+main {
+    background-color: #8F8EBF;
+    padding: 50px;
+    color: #FFFFFF;
+}
+	
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	}
+#h3{
+	text-align: center;
+}
+
+a:link{
+	color: #FFFFFF;
+	font-weight: bolder;
+}
+a:visited{
+	color:#8F8EBF;
+	font-weight: bolder;
+}
+a:hover {
+    color: #FF913E;
+    font-weight: bolder;
+    font-size: large;
+}
+a{
+	text-decoration: none;
+}
+input[type=text]{
+	width: 80%;
+	padding: 10px;
+	margin: 10px 0;
+	background-color: #B2B1D3; 
+	color: #2E4159;
+	border: none;
+}
+input[type=text]:focus{
+	background-color: #D9CCC5;  
+	color: #2E4159; 
+	border: 3px;
+}
+input[type=button], input[type=submit]{
+	background-color: #DBD0F2;
+	color: #2E4159;
+	padding: 8px;
+	margin: 8px 0;
+	border-radius: 7px;
+	
+}
+table{
+			border-collapse: collapse;
+		}
+		th,td{
+			padding: 10px;
+		}
+		th{
+			text-align: left;
+			background-color: #262626;
+			color: #E2d5d0;
+		}
+		td{
+			background-color:#E2d5d0;
+			color: #151723;
+}
+nav{
+	text-align: center;
+}
+#catrina{
+	width: 75%;
+	height: auto;
+	margin: 10px auto;
+	display: block;
+}
+p{
+	padding: 10px;
+}
+#papelpicado{
+	margin: 10px auto;
+	display: block;
+}
+#audio{
+	margin: 10px auto;
+	display: block;
+}

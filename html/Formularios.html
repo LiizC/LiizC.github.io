@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../CSS/Style_Enlaces.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<header>
+		<h1>Formularios en html</h1>
+	</header>
+<nav>
+		<ul>
+			<li>Mi primera pagina</li>
+			<li>Tablas</li>
+			<li>Listas</li>
+			<li>Enlaces</li>
+			<li>Audio</li>
+			<li>Video</li>
+			<li>Imagenes</li>
+			<li>Animaciones</li>
+			<li>Formularios</li>
+		</ul>	
+	</nav>
+	<main>
+		<section>
+			<h2>Inserción de formularios</h2>
+			<form>
+				<label>Nombre</label>
+				<input type="text" id="idname" name="nombre">
+				<input type="button" id="idboton" name="enviar" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con casillas de verificación</h2>
+			<form>
+				<label>¿Cuáles son los géneros musicales que prefieres?</label>
+				<input type="checkbox" id="generom1" name="generom1" value="Pop">
+				<label>Pop</label>
+				<input type="checkbox" id="generom2" name="generom2" value="Rock">
+				<label for="">Rock</label>
+				<input type="checkbox" id="generom3" value="Jazz">
+				<label for="">Jazz</label>
+				<input type="checkbox" id="generom4" value="Alternativa">
+				<label for="">Alternativa</label>
+				<input type="button" id="boton2" name="enviar2" value="Enviar">
+			</form>
+		</section>
+		<section>
+			<h2>Inserción de formulario con botones radio</h2>
+		<form id="form1" name="form1" method="get" action="page.html">
+		<label>Género</label>
+      </form>
+		<input type="radio" name="radio" id="radio" value="radio">
+        <label for="radio">Femenino </label>
+        <input type="radio" name="radio2" id="radio2" value="radio2">
+        <label for="radio2">Masculino </label>
+        <input type="submit" name="submit" id="submit" value="Enviar">
+		</section>
+		<section>
+			<h2>Formulario de contacto</h2>
+			<h3>Contacto</h3>
+   <form id="form2" name="form2" method="get" action="page.html">
+		<table width="50%" border="0">
+  <tbody>
+    <tr>
+      <td><label for="textfield">Nombre</label>&nbsp;</td>
+      <td><input type="text" name="textfield" id="textfield">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><label for="email">Email:</label>&nbsp;</td>
+      <td> <input type="email" name="email" id="email">&nbsp;</td>
+    </tr>
+    <tr>
+      <td><label for="textarea">Mensaje</label>&nbsp;</td>
+      <td><textarea name="textarea" id="textarea"></textarea>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="submit2" id="submit2" value="Enviar">&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+	</form>
+		</section>
+		<section>
+			<h2>Formulario de ingreso o login</h2>
+			<form id="form3" name="form3" method="get" action="page2.html">
+				<label>Usuario</label>
+				<input type="text" id="Usuario" name="Usuario">
+				<label>Contraseña</label>
+				<input type="password">
+				<input type="submit" name="submit3" id="submit3" value="Enviar">
+			</form>
+		</section>
+		
+	</main>
+</body>
+</html>
